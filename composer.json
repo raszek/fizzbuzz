@@ -1,0 +1,20 @@
+{
+    "name": "mraszkiewicz/fizz-buzz",
+    "type": "project",
+    "require-dev": {
+        "php": "^8.3",
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Raszek\\FizzBuzz\\": "src/",
+            "Raszek\\FizzBuzz\\Tests": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maciej Raszkiewicz",
+            "email": "raszekster@gmail.com"
+        }
+    ]
+}
